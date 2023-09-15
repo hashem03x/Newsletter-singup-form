@@ -26,7 +26,7 @@ form.addEventListener("submit", (e) => {
     <h2 class="mt-3 mb-3">Thanks for subscribing!</h2>
     <p>
     A confirmation email has been sent to
-    <span id="sentTo">Hashem@gmail.com</span>
+    <span id="sentTo">${email.value}</span>
     please open it and click the button inside to confirm your subscribtion
     </p>
     <button id="dismiss">Dismiss message</button>`;
