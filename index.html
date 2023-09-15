@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+
+    <title>Newsletter sign-up form with success message</title>
+  </head>
+  <body class="position-relative">
+    <!-- Sign-up form start -->
+    <form id="form" class="position-absolute p-3">
+      <div class="row align-items-center flex-column-reverse flex-lg-row">
+        <div class="col-lg-6 col-12">
+          <h2 class="fw-bold">Stay Updated!</h2>
+          <p>Join 60,000+ Product managers receiving monthly updates on</p>
+          <ul class="list-unstyled">
+            <li class="mb-2 d-flex align-items-center">
+              <img
+                class="img-fluid me-2"
+                src="assets/images/icon-list.svg"
+                alt="icon-list"
+              />
+              <span>Product discovery and building what matters</span>
+            </li>
+            <li class="mb-2 d-flex align-items-center">
+              <img
+                class="img-fluid me-2"
+                src="assets/images/icon-list.svg"
+                alt="icon-list"
+              />
+              <span>Measuring to ensure that updates are a success</span>
+            </li>
+            <li class="mb-2 d-flex align-items-center">
+              <img
+                class="img-fluid me-2"
+                src="assets/images/icon-list.svg"
+                alt="icon-list"
+              />
+              <span>And much more!</span>
+            </li>
+          </ul>
+          <label class="mb-1" for="email"> Email address </label>
+          <span id="error">valid email required</span>
+          <input
+            class="p-2 mb-2"
+            type="email"
+            id="email"
+            placeholder="email@company.com"
+          />
+          <input
+            class="pt-2 pb-2 ps-3 pe-3 m-auto"
+            type="submit"
+            value="Subscirbe to monthly Newsletter"
+          />
+        </div>
+        <div class="col-lg-6 col-12 mt-3">
+          <img
+            id="toChange"
+            class="img-fluid h-25"
+            src="assets/images/illustration-sign-up-desktop.svg"
+            alt="illustration"
+          />
+        </div>
+      </div>
+    </form>
+    <!-- Sign-up form end -->
+    <!-- Success Message Start -->
+    <!-- Success Message End -->
+    <script src="Js/main.js"></script>
+    <script src="Js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
